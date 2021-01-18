@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>KML Samples</name>
+  <Style id="sn_cross-hairs">
+		<IconStyle>
+			<color>ff00ffff</color>
+			<scale>1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/earthquake.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff00ff00</color>
+			<scale>1</scale>
+		</LabelStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_cross-hairs">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_cross-hairs</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_cross-hairs_highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_cross-hairs_highlight">
+		<IconStyle>
+			<color>ff00ffff</color>
+			<scale>1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/earthquake.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff00ff00</color>
+			<scale>1</scale>
+		</LabelStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+    <open>1</open>
+    <description>Unleash your creativity with the help of these examples!</description>
+ 
+    <Folder>   
+      <name>Netstat Foreign address Locations</name>
+      <description>IP2Location from netstat output</description>
+      --replaceme--
+
+
+    </Folder>
+  
+  </Document>
+</kml>
